@@ -1,7 +1,7 @@
 public class CarApp {
     public static void main(String[] args) {
         // 1. 다형성: 부모(Car) 타입 하나로 자식들을 다 묶을 수 있습니다.
-        Car car1 = new Truck("봉고", 100, 1000);
+        Car car1 = new Truck("봉고", 100);
         Car car2 = new SportsCar("페라리", 100);
 
         // 2. 다형성의 위력: 배열 하나에 서로 다른 종류의 차를 담습니다.
