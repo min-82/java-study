@@ -185,7 +185,7 @@ public class Pokemon {
         }
         bar.append("]");
 
-        System.out.println("남은 체력: " + currentHp + "/" + baseHp + " " + bar + " (" + percent + "%)");
+        System.out.println(getName() + "의 남은 체력: " + currentHp + "/" + baseHp + " " + bar + " (" + percent + "%)");
     }
 
     public boolean isFainted() {

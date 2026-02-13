@@ -3,7 +3,7 @@ package TextPokemon;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
         Skill flareBlitz = Skill.builder()
@@ -69,5 +69,5 @@ public class Main {
         bm.startBattle(player, enemy); // "배틀 시작해!" 한 마디면 끝
 
         sc.close();
-    }
+        }
 }
